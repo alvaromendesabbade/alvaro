@@ -17,3 +17,18 @@ consumo_mensal = (potência_do_aparelho * tempo_médio_de_uso * mês)/ fator_de_
 custo_estimado = consumo_mensal * valor_fixo
 
 
+![Executar](https://img.shields.io/badge/Executar-Programa-44cc11?style=for-the-badge&logo=playstation&logoColor=white) - Instruções:
+
+Siga os passos abaixo:
+
+* Certifique-se de ter o Python instalado (versão 3.x);
+
+* Abra o terminal ou prompt de comando na pasta onde salvou o arquivo;
+
+* Execute o seguinte comando:
+
+python app.py
+
+* Por fim, insira os dados solicitados (Nome do aparelho, potência em Watts e tempo de uso).
+
+
