@@ -21,7 +21,7 @@ quantidade=int(input("Quantas notas serão inseridas?: "))
 notas=[]
 i=0
 while i < quantidade:
-    nota=int(input(f"Insira a nota {i}: "))
+    nota=float(input(f"Insira a nota {i}: "))
     notas.append(nota)
     i=i+1
 

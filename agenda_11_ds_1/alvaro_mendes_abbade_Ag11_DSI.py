@@ -18,7 +18,6 @@ def situacao_do_reservatorio(n):
     
 print(Style.RESET_ALL) 
 
-
 nivel = int(input("Qual o nível do reservatório de água (1 a 5)?: "))
 
 situacao_do_reservatorio(nivel)
