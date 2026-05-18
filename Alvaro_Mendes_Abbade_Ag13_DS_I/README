@@ -1,0 +1,35 @@
+
+```markdown
+Dicas de Filmes, Séries, Músicas e Games
+
+O objetivo principal deste projeto é oferecer uma experiência visual fluida e intuitiva, permitindo que os usuários descubram novos conteúdos baseados em seus gostos cotidianos.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+  - 🍿 **Filmes & Séries** 
+  - 🎵 **Músicas** 
+  - 🎮 **Games:** 
+- **Layout** Desenvolvido com **Flexbox** e **CSS**
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando:
+
+* **HTML5**
+* **CSS**
+    * **Flexbox** 
+    
+---
+
+## 📦 Estrutura do Projeto
+
+A organização dos arquivos do repositório segue a estrutura abaixo:
+
+```text
+│
+├── portal-entretenimento.html          # Página principal
+└── style.css

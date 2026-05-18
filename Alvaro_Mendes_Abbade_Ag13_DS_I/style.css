@@ -1,0 +1,68 @@
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+width: 250px;
+height: auto;
+
+}
+
+.formato-imagem {
+
+  color: blue;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+
+}
+
+/* Reseta margens básicas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* O Container Pai vira o modelo Flex */
+.container-flex {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as colunas quebrem de linha em telas pequenas */
+    gap: 20px;       /* Cria o espaçamento entre as colunas */
+    padding: 20px;
+    width: 100%;
+}
+
+/* Estilo geral para todas as colunas */
+.coluna {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Ajustando a proporção de tamanho de cada coluna */
+.col-1 {
+    flex: 1; /* Ocupa 1 parte do espaço */
+}
+
+.col-2 {
+    flex: 1; /* Ocupa o dobro de espaço da coluna 1 e 3 (ideal para o conteúdo principal) */
+}
+
+.col-3 {
+    flex: 1; /* Ocupa 1 parte do espaço */
+}
+
+/* --- Responsividade para Celulares --- */
+@media (max-width: 768px) {
+    .container-flex {
+        flex-direction: column; /* Em telas menores, as colunas ficam uma embaixo da outra */
+    }
+}
