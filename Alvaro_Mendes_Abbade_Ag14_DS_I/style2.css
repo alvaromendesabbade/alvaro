@@ -1,0 +1,63 @@
+/* Reseta margens básicas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+.legenda-texto {
+    font-size: 0.75rem;
+    color: #666666;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin-top: 8px;
+    display: block;
+    text-align: left;
+    font-style: italic;
+}
+
+/* --- O CONTAINER PAI (Alterado para GRID) --- */
+.container-flex {
+    display: grid;
+    /* Cria 3 colunas de tamanhos iguais (1fr cada) */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /* Espaçamento entre as colunas e linhas */
+    padding: 20px;
+    width: 100%;
+}
+
+/* Estilo geral para todas as colunas */
+.coluna {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Como o Grid já controla o tamanho das colunas no elemento pai, 
+   você não precisa mais daquelas propriedades "flex: 1" em cada classe col-X!
+*/
+
+/* --- Responsividade para Celulares (Telas menores que 768px) --- */
+@media (max-width: 768px) {
+    .container-flex {
+        /* Em telas de celular, passa a ter apenas 1 coluna (tudo empilhado) */
+        grid-template-columns: 1fr; 
+    }
+}
