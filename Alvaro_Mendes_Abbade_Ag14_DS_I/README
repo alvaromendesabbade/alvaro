@@ -1,0 +1,43 @@
+```markdown
+# 🗺️ Atrativos Turísticos de São Paulo
+
+Uma página web responsiva e interativa desenvolvida para apresentar seis dos principais pontos turísticos, culturais e históricos da cidade de São Paulo. O projeto utiliza hiperlinks, imagens informativas e animações para guiar o usuário em uma jornada de descoberta pela metrópole.
+
+---
+
+## 🚀 Demonstração Visual do Projeto
+O layout é baseado em uma estrutura flexível de colunas, dividindo os atrativos de forma organizada e elegante:
+
+* **Bairro da Liberdade** (Com link para localização)
+* **Estação da Luz** (Com mapa oficial)
+* **Museu de Arte de São Paulo (MASP)** (Com link para o site oficial)
+* **Museu da Imagem e do Som (MIS-SP)** (Com agenda de atrações)
+* **Museu da Língua Portuguesa** (Com link institucional)
+* **Catedral Metropolitana de São Paulo** (Catedral da Sé)
+
+---
+
+## 🛠️ Tecnologias e Frameworks Utilizados
+
+O projeto combina HTML5 estrutural com estilizações customizadas e componentes visuais modernos:
+
+* **HTML5:** Estruturação semântica do conteúdo, tabelas de imagens (`<figure>`, `<figcaption>`) e mapeamento de links externos.
+* **W3.CSS:** Framework CSS utilizado para aplicar classes de arredondamento (`w3-round-large`) e animações fluidas nos títulos (`w3-animate-top`, `w3-animate-left`, `w3-animate-bottom`, `w3-animate-opacity`, `w3-animate-fading`, `w3-animate-zoom`).
+* **CSS3 Personalizado (`style2.css`):** Gerenciamento do layout através de um sistema flexbox (`container-flex` e `coluna`), organizando de forma harmônica os 6 pontos turísticos.
+
+---
+
+## 📁 Estrutura de Arquivos Recomendada
+
+Para que o projeto funcione perfeitamente com todas as imagens e estilos referenciados no código, utilize a seguinte árvore de diretórios na sua máquina/repositório:
+
+```text
+├── atrativos_turisticos_SP.html                   # O arquivo HTML principal fornecido
+├── w3.css                       # Framework W3.CSS para animações e utilitários
+├── style2.css                   # Arquivo contendo a classe .container-flex e .coluna
+├── bairro_da_liberdade.jpg       # Imagem correspondente
+├── estação_da_luz.jpg            # Imagem correspondente
+├── MASP.jpg                     # Imagem correspondente
+├── museu_da_imagem_e_do_som.jpg # Imagem correspondente
+├── museu_da_língua_portuguesa.jpg # Imagem correspondente
+└── praça_da_sé.jpg              # Imagem correspondente
