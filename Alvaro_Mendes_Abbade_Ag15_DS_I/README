@@ -1,0 +1,31 @@
+# 🗺️ Site da empresa BlondFox
+
+A Blond Fox é um projeto e marca digital brasileira voltada para o universo da educação e produção de fotografia.
+
+---
+
+## 🚀 Demonstração Visual do Projeto
+O layout possui um menu lateral com os seguintes links:
+
+* **Home** (Página inicial do site)
+* **Parceiros** (Relação de parceiros da empresa)
+* **FAQ** (Perguntas frequentes dos clientes e visitantes)
+
+
+---
+
+## 🛠️ Tecnologias e Frameworks Utilizados
+
+O projeto combina HTML5 com framework w3c.css
+
+---
+
+## 📁 Estrutura de Arquivos Recomendada
+
+Para que o projeto funcione perfeitamente com todas as imagens e estilos referenciados no código, utilize a seguinte árvore de diretórios na sua máquina/repositório:
+
+```text
+├── home.html                   # O arquivo HTML principal fornecido
+├── w3.css                       # Framework W3.CSS para animações e utilitários
+├── faq.html
+└── parceiros.html
